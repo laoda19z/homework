@@ -1,0 +1,95 @@
+*{
+		padding:0;
+		margin:0;
+	}
+	ul,li{
+		list-style:none;
+	}
+	.img1{
+		position:absolute;
+		margin-left:180px;
+		margin-top:2px;
+	}
+	.bigBox{
+		width:1400px;
+		height:500px;
+		border-left:1px solid black;
+		border-right:1px solid black;
+		margin:20px auto;
+	}
+	.scroll{
+		width:1400px;
+		height:20px;
+		background:#cccccc;
+		position:relative;
+	}
+	.smsc{
+		width:1000px;
+		height:20px;
+		margin:0px auto;
+		overflow:hidden;
+		position:relative;
+	}
+	.tips{
+		width:1800px;
+		color:red;
+		position:absolute;
+		left:1000px;
+	}
+	.box{
+		width:1200px;
+		height:397px;
+		border:0px;
+		margin:20px auto;
+		position:relative;
+		overflow:hidden;
+	}
+	.slider{
+		width:8400px;
+		position:absolute;
+		left:-1200px;
+	}
+	.slide{
+		width:1200px;
+		overflow:hidden;
+		float:left;
+	}
+	.box>span{
+		display:block;
+		width:30px;
+		height:50px;
+		text-align:center;
+		cursor:pointer;
+		background:red;
+		font-size:30px;
+		color:white;
+		position:absolute;
+		top:175px;
+		opacity:0;
+	}
+	#left{
+		left:30px;
+	}
+	#right{
+		right:30px;
+	}
+	.nav{
+		position: absolute;
+		left:500px;
+		bottom:20px;
+	}
+	.nav>li{
+		float:left;
+		width:20px;
+		height:20px;
+		background:#ccc;
+		cursor:pointer;
+		margin:0 10px;
+		border-radius:50px; 
+		text-align: center;
+	}
+	.nav .active{
+		background:red;
+		color:#cccccc;
+		text-align: center;
+	}
